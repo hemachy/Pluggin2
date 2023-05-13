@@ -1,0 +1,448 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+#welcome{
+    background-color: #ffca36;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+}
+.align-center{
+    align-items: center;
+}
+.address{
+text-align: center;
+width: 25%;
+background-color:#ffca36;
+text-transform: capitalize;
+padding: 2px;
+}
+.to{
+    width:20%;
+    text-align: center;
+    background-color:#353535;
+    color: aliceblue;
+    text-transform: capitalize;
+    padding: 2px;
+}
+.link{
+    width: 55%;
+    text-align: center;
+    background-color:#ffca36;
+    text-transform: capitalize;
+}
+.link ul li {
+    display: inline-block;
+    margin: 0 14px;
+    margin-top: 5px;
+}
+.link ul li a{
+    color: black;
+    width: 10px;
+    height: 10px;
+}
+.link ul li a:hover{
+    margin-right: 5px;
+    border: 1px solid black;
+    border-radius: 20%;
+    padding: 5px;
+    align-items: center;
+    margin: 4px 0 0 0;
+    width: 100%;
+    height: 100%;
+   }
+#logo{
+    background-color: #ffffff;
+    height: 70px;
+}
+.icon{
+    width: 20%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.list ul li{
+    display: inline-block;
+    margin: 5px 18px;
+    text-align: right;
+    text-transform: capitalize;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+.list ul li a{
+    color: black;
+    font-size: 20px;
+   
+    
+}
+.list ul li a:hover{
+    color: #ffca36;
+    border: 1px solid #ffca36;
+    border-radius: 10%;
+}
+#banner{
+    background-image: url(../image/banner.webp);
+    background-color: rgba(240, 233, 233, 0);
+    background-blend-mode:multiply;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.info{
+    margin: auto;
+    margin-top: 100px;
+}
+.info h2{
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.info span a{
+    color: aliceblue;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.info .arrow{
+    color: aliceblue;
+    font-size: 12px;
+    margin: 0 4px;
+}
+.info span a:hover{
+    color: #ffca36;
+}
+#address{
+    background-color: #ffffff;
+    height: 110px;
+}
+
+.location{
+    width: 30%;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid black;
+    margin-top: 15px;
+}
+.location span{
+    font-size: 20px;
+    background-color: #ffca36;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ffca36;
+    border-radius: 50%;
+}
+.location p{
+    font-size: 17px;
+    line-height: 20px;
+}
+.email{
+    width: 30%;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid black;
+    margin-top: 15px;
+}
+.email span{
+    font-size: 20px;
+    background-color: #ffca36;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ffca36;
+    border-radius: 50%;
+}
+.email p{
+    font-size: 15px;
+    line-height: 20px;
+}
+.web span{
+    font-size: 20px;
+    background-color: #ffca36;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #ffca36;
+    border-radius: 50%;
+}
+.web{
+    width: 30%;
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+}
+.web p{
+    font-size: 15px;
+    line-height: 20px;
+}
+#location{
+    background-image: url(../image/banner-one.webp);
+    background-color: rgba(240, 233, 233, 0);
+    background-blend-mode:multiply;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.map p{
+    font-size: 40px;
+    text-align: center;
+    margin-left:500px;
+   margin-bottom: 100px;
+   background-color: #ffca36;
+   border-radius: 50%;
+}
+#form{
+    height: 110px;
+}
+.details{
+    text-align: center;
+    margin: auto;
+}
+.details h2{
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 30px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.details p{
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 0;
+    line-height: 15px;
+}
+#fill{
+    background-color: #ffffff;
+    width: 1200px;
+    height: 350px;
+}
+.field{
+    background-image: url(../image/img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.from{
+ margin: auto;
+width:50%;
+height: 70%;
+background-color: #ffffff;
+margin:80px 0 0 300px ;
+padding: 20px ;
+}
+.from .name{
+    width: 200px;
+    height: 22px;
+    margin-bottom: -30px;
+}
+.from .mail{
+    width: 200px;
+    height: 22px;
+    margin-bottom: -30px;
+    margin: 0 5px;
+}
+.from .messege{
+    width: 400px;
+    height: 90px;
+    margin-left: -10px;
+}
+.from .button{
+    width: 400px;
+    height: 30px;
+    margin-left: -10px;
+   
+    font-size: 20px;
+    font-weight: 600;
+}
+.from .button:hover{
+    background-color: #ffca36;
+    transition: 0.35s;
+}
+#footer{
+    background-color: #6a6767;
+    height: 300px;
+}
+
+#footer .logo{
+    width: 20%;
+    margin: 10px ;
+}
+.logo img{
+    margin: 8px 5px;
+}
+.logo p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 5px ;
+    padding: 2px;
+    color: #f7f6f6;
+}
+#footer .logo ul li{
+    display: inline-block;
+    margin: 8px 10px ;
+}
+#footer .logo ul li a{
+    color: #353535;
+    background-color: #ffffff;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+#footer .logo ul li a:hover{
+    background-color: #ffca36;
+    transition: 0.35s;
+}
+#footer .contact{
+    width: 22%;
+    }
+#footer .contact h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 50px 5px 20px 5px;
+    color: #f7f6f6;
+}
+#footer .contact .icon{
+    width: 10%;
+    cursor: pointer;
+    
+}
+#footer .contact .content{
+    width: 85%;
+    margin: 10px  0;
+    cursor: pointer;
+    color:#f7f6f6;
+} 
+#footer .contact .content a{
+color:#f7f6f6;
+
+}
+
+#footer .links{
+    width: 15%;
+}
+#footer .links h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 50px 2px 20px 0;
+    color: #f7f6f6;
+}
+#footer .links ul li{
+    margin: 5px 0;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+#footer .links ul li a{
+    color: #f7f6f6;
+}
+#footer .links ul li a:hover{
+    background-color: #ffca36;
+    margin-left: 5px;
+    transition: 0.35s;
+}
+#footer .news{
+    width: 40%;
+    display: inline-block;
+}
+#footer .news h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 50px 2px 20px 4px;
+    color: #f7f6f6;
+}
+#footer .news .photo{
+    width: 10%;
+    margin: 10px;
+    display: inline-block;
+}
+#footer .news .para{
+    width: 80%;
+    display: inline-block;
+}
+#footer .news .para h6{
+    margin: 5px 0;
+    color: #f7f6f6;
+}
+#footer .news .para p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #f7f6f6;
+}
+#footer .news .para span{
+    font-size: 13px;
+    font-weight: 400;
+    color: #f7f6f6;
+    display: inline-block;
+}
+#filter{
+    background-color: #c3afaf;
+    margin: auto;
+    padding: 60px 0;
+}
+#filter .myContainer{
+    text-align: center;
+}
+.myContainer div{
+    width: 100px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    background-color: azure;
+    line-height: 100px;
+    display: inline-block;
+    margin: auto;
+}
+#filter .btnGrp{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.btnGrp button{
+    cursor: pointer;
+    border: none;
+    background-color: bisque;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#copyright{
+    background-color: #555555;
+} 
+.end{
+    margin: auto;
+    color: #f7f6f6;
+    font-size: 14px;
+    font-weight: 400;
+}
+.end span{
+    color: #ffca36;
+}
